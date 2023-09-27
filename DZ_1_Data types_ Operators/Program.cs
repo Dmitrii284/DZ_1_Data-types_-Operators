@@ -34,7 +34,7 @@ class Program
     {
         if (index1 < 1 || index1 > 6 || index2 < 1 || index2 > 6)
         {
-            Console.WriteLine("Ошибка: введены неверные номера разрядов!");
+            Console.WriteLine("Mistake: incorrect digit numbers have been entered!");
         }
         int temp = array[index1 - 1];
         array[index1 - 1] = array[index2 - 1];
